@@ -1,0 +1,10 @@
+ > Do you want to encode or decode a Caesar-ciphered message?
+   ( e to encode | d to decode): d
+
+ > Message to encode using Caesar cipher
+      (use only letters - no special characters):
+Hzh T ozye estyv lyjzyp nly qtrfcp estd zfe
+ > Key to decode: 89
+
+The message was:
+Wow I dont think anyone can figure this out

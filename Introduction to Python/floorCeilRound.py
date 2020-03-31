@@ -1,9 +1,14 @@
-testNumber = 0.1
+testNumber = 541.1897987
 
-print("Number: {0}\n".format(testNumber))
+print("Number: {}\n".format(testNumber))
 
 import math
 
-print("Floor: {0}".format(math.floor(testNumber))) # Arredonda para baixo
-print("Ceil: {0}".format(math.ceil(testNumber))) # Arredonda para cima
-print("Round: {0}".format(round(testNumber))) # Arredonda para o mais próximo
+print("Floor: {}".format(math.floor(testNumber))) # Arredonda para baixo
+print("Ceil: {}".format(math.ceil(testNumber))) # Arredonda para cima
+print("Round: {}".format(round(testNumber))) # Arredonda para o mais próximo
+print("Round: {}".format(round(testNumber, 2))) # Arredonda para o mais próximo
+#                                                com duas casas decimais
+print("Round: {}".format(round(testNumber, -1))) # Arredonda também uma
+print("Round: {}".format(round(testNumber, -2))) # quantidade de números antes
+#                                                  da vírgula

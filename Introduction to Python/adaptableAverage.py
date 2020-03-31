@@ -1,15 +1,23 @@
-def getAverage(arrayOfNumbers):
-   arrayOfNumbers = arrayOfNumbers.split(" ")
+def main():
+   printIntroduction()
+
+   numbers = input("\nNumbers: ").split()
+
+   print(" > Average: {:.2f}".format(average(numbers)))
+
+def printIntroduction():
+   print("\n This algorithm calculates the average of", end="")
+   print("two or more numbers separated by spaces")
+
+def average(arrayOfNumbers):
    total = 0
 
-   for i in range(len(arrayOfNumbers)):
-      total += float(arrayOfNumbers[i])
+   for number in arrayOfNumbers:
+      total += float(number)
 
    average = total / len(arrayOfNumbers)
 
    return average
 
 
-numbers = input()
-
-print(getAverage(numbers))
+main()
