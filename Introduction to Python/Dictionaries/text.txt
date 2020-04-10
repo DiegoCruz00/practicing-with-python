@@ -1,0 +1,14 @@
+Let's write a program that analyzes text documents and counts how many times
+each word appears in the document. This kind of analysis is sometimes used
+as a crude measure of the style similarity between two documents and is also
+used by automatic indexing and archiving programs (such as Internet search
+engines).
+At the highest level, this is just a multi-accumulator problem. We need a
+count for each word that appears in the document. We can use a loop that iterates through each word in the document and adds one to the appropriate count.
+The only catch is that we will need hundreds or thousands of accumulators, one
+for each unique word in the document. This is where a Python dictionary comes
+in handy.
+We will use a dictionary where the keys are strings representing words in the
+document and the values are ints that count how many times the word appears.
+Let's call our dictionary counts. To update the count for a particular word, w,
+we just need a line of code something like this: "example".
