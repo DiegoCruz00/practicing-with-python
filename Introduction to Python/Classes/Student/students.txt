@@ -1,0 +1,6 @@
+Diego, 2, 8
+Arthur, 2, 6
+João, 4, 8
+Filipe, 3, 9
+Lucas, 3, 12
+Amanda, 2, 10
