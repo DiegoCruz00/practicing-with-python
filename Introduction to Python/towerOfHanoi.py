@@ -73,7 +73,7 @@ class Disk:
       return self.radius
 
 def main(mode):
-   numberOfDisks = 8
+   numberOfDisks = 6
    numberOfMoves = 0
 
    game = Table(numberOfDisks)
