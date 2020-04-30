@@ -1,0 +1,20 @@
+Now that you know some data-structuring techniques, it's time to stretch your
+wings and really put those tools to work. Most modem computer applications
+are designed using a data-centered view of computing. This so-called
+objectoriented design (OOD) process is a powerful complement to top-down design
+for the development of reliable, cost-effective software systems. In this chapter,
+we will look at the basic principles of OOD and apply them in a couple of case
+studies.
+The essence of design is describing a system in terms of magical black boxes
+and their interfaces. Each component provides a set of services through its
+interface. Other components are users or clients of the services.
+A client only needs to understand the interface of a service; the details of
+how that service is implemented are not important. In fact, the internal details
+may change radically and not affect the client at all. Similarly, the component
+providing the service does not have to consider how the service might be used.
+The black box just has to make sure that the service is faithfully delivered. This
+separation of concerns is what makes the design of complex systems possible.
+In top-down design, functions serve the role of our magical black boxes. A
+client program can use a function as long as it understands what the function
+does. The details of how the task is accomplished are encapsulated in the function
+definition.

@@ -1,0 +1,20 @@
+Now that you know some data-structuring techniques, it's time to stretch your
+wings and really put those tools to work. Most modem computer applications
+are ******ed using a data-centered view of computing. This so-called
+objectoriented ****** (OOD) process is a powerful complement to top-down ******
+for *** development of reliable, cost-effective software systems. In this chapter,
+we will look at *** basic principles of OOD and apply ***m in a couple of case
+studies.
+*** essence of ****** is describing a system in terms of magical black boxes
+and ***ir interfaces. Each component provides a set of *******s through its
+interface. O***r components are users or clients of *** *******s.
+A client only needs to understand *** interface of a *******; *** details of
+how that ******* is implemented are not important. In fact, *** internal details
+may change radically and not affect *** client at all. Similarly, *** component
+providing *** ******* does not have to consider how *** ******* might be used.
+*** black box just has to make sure that *** ******* is faithfully delivered. This
+separation of concerns is what makes *** ****** of complex systems possible.
+In top-down ******, functions serve *** role of our magical black boxes. A
+client program can use a function as long as it understands what *** function
+does. *** details of how *** task is accomplished are encapsulated in *** function
+definition.
