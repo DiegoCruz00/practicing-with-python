@@ -1,0 +1,3 @@
+{'name': 'Diego', 'company': 'None', 'state': 'PB', 'email': 'diego@company.com'}
+{'name': 'Luana', 'company': 'None', 'state': 'SP', 'email': 'luana@company.com'}
+{'name': 'Lucas', 'company': 'None', 'state': 'PB', 'email': 'lucas@company.com'}
