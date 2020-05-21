@@ -40,11 +40,10 @@ def main():
    system("cls")
 
    xp = getInput()
-
-   rankName = getRank(xp)
+   rankName = getRank(xp).lower()
 
    copy(rankName)
-   print("\n" + rankName)
+   print("\n" + rankName + "\n")
 
 def getInput():
    xp = input("\n > ")
