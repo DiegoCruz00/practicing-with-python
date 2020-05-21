@@ -1,0 +1,41 @@
+- input: |
+    01/02/2020
+    01/02/2020
+  output: |
+    0 days left
+
+- input: |
+    01/09/2020
+    05/09/2020
+  output: |
+    4 days left
+
+- input: |
+    14/04/2020
+    03/06/2020
+  output: |
+    50 days left
+
+- input: |
+    14/04/1950
+    17/06/1950
+  output: |
+    64 days left
+
+- input: |
+    14/04/2020
+    03/06/2021
+  output: |
+    415 days left
+
+- input: |
+    11/12/2020
+    11/12/2022
+  output: |
+    730 days left
+
+- input: |
+    04/05/2020
+    29/07/2020
+  output: |
+    86 days left
