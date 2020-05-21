@@ -1,1 +1,0 @@
-print(type("A" < "a"))
