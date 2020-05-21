@@ -1,5 +1,0 @@
-{'name': 'Diego', 'id': '12345', 'password': '987654', 'checkingBalance': 37.0, 'savingsBalance': 8.0}
-{'name': 'Diego', 'id': '45325', 'password': '987654', 'checkingBalance': 0.0, 'savingsBalance': 1000.0}
-{'name': 'Diego', 'id': '47578', 'password': '987654', 'checkingBalance': 1000.0, 'savingsBalance': 1000.0}
-{'name': 'Diego', 'id': '99824', 'password': '987654', 'checkingBalance': 1000.0, 'savingsBalance': 1000.0}
-{'name': 'Diego', 'id': '56767', 'password': '987654', 'checkingBalance': 410.0, 'savingsBalance': 0.0}

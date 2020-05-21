@@ -1,6 +1,0 @@
-Amanda, 2.0, 10.0
-Diego, 2.0, 8.0
-Lucas, 3.0, 12.0
-Arthur, 2.0, 6.0
-Filipe, 3.0, 9.0
-João, 4.0, 8.0
